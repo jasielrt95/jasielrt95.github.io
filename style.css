@@ -52,16 +52,29 @@ a {
     padding: 0.5rem;
     background-color: #c5d1eb;
     border-radius: 0.5rem;
+    border: black 1px solid;
+    box-shadow: black 1px 1px 1px;
 }
 .button-mediafind{
     padding: 0.5rem;
     background-color: #81D0B0;
     border-radius: 0.5rem;
+    border: black 1px solid;
+    box-shadow: black 1px 1px 1px;
 }
 .button-twitter{
     padding: 0.5rem;
     background-color: #1DA1F2;
     border-radius: 0.5rem;
+    border: black 1px solid;
+    box-shadow: black 1px 1px 1px;
+}
+.button-discord{
+    padding: 0.5rem;
+    background-color: #5865F2;
+    border-radius: 0.5rem;
+    border: black 1px solid;
+    box-shadow: black 1px 1px 1px;
 }
 .introduction-paragraph{
     margin-bottom: 1.4rem;
