@@ -17,7 +17,7 @@ a{
     align-items:center;
     width:50%;
     margin:auto;
-    margin-bottom:5rem
+    margin-bottom:6rem
 }
 .flex-container{
     display:flex;
@@ -76,7 +76,7 @@ a{
 }
 .button-discord{
     padding:.5rem;
-    background-color:#5865f2;
+    background-color:#a3aafb;
     border-radius:.5rem;
     border:#000 1px solid;
     box-shadow:#000 1px 1px 1px
@@ -100,7 +100,8 @@ a{
     margin:auto
 }
 .title{
-    text-align:center
+    text-align:center;
+    color: #ddd2d2  
 }
 .personal-projects-image{
     width:100%;
@@ -121,6 +122,21 @@ a{
 .social-links{
     margin-right:1rem
 }
+.skills{
+    color:#ddd2d2 ;
+    display:flex;
+    justify-content: space-around;
+    width:50%;
+    margin:auto;
+}
+.skill-column{
+    margin-right: 3rem;
+}
+.skills-container{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 6rem;
+}
 @media screen and (max-width:800px){
     .hero{
         width:100%;
@@ -128,7 +144,7 @@ a{
         justify-content:center;
         align-items:center;
         margin:auto;
-        margin-bottom:3rem
+        margin-bottom:6rem
     }
     .flex-container{
         display:flex;
@@ -147,5 +163,20 @@ a{
         width:90%;
         margin:auto;
         margin-bottom:10rem
+    }
+    .skills{
+        color:#ddd2d2 ;
+        /* display:flex;
+        flex-direction: column; */
+        margin:auto;
+        width: 50%;
+    }
+    .skill-column{
+        margin-right: 0;
+    }
+    .skills-container{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 5rem;
     }
 }
