@@ -2,7 +2,16 @@
 
 body{
     background-color:#232c33;
+    color:#ddd2d2;
     font-family:'Source Sans Pro',sans-serif
+}
+.light-mode{
+    background-color:#f6efee;
+    color:#232c33;
+}
+.title-container{
+    display:flex;
+    align-items:center;
 }
 a{
     text-decoration:none;
@@ -24,21 +33,18 @@ a{
     flex-direction:row;
     justify-content:center;
     align-items:center;
-    color:#ddd2d2
 }
 .flex-container-social{
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    color:#ddd2d2
 }
 .flex-container-projects{
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    color:#ddd2d2
 }
 .profile-image{
     width:100%;
@@ -57,29 +63,21 @@ a{
     padding:.5rem;
     background-color:#c5d1eb;
     border-radius:.5rem;
-    border:#000 1px solid;
-    box-shadow:#000 1px 1px 1px
 }
 .button-mediafind{
     padding:.5rem;
     background-color:#81d0b0;
     border-radius:.5rem;
-    border:#000 1px solid;
-    box-shadow:#000 1px 1px 1px
 }
 .button-twitter{
     padding:.5rem;
     background-color:#1da1f2;
     border-radius:.5rem;
-    border:#000 1px solid;
-    box-shadow:#000 1px 1px 1px
 }
 .button-discord{
     padding:.5rem;
     background-color:#a3aafb;
     border-radius:.5rem;
-    border:#000 1px solid;
-    box-shadow:#000 1px 1px 1px
 }
 .introduction-paragraph{
     margin-bottom:1.4rem
@@ -101,7 +99,6 @@ a{
 }
 .title{
     text-align:center;
-    color: #ddd2d2  
 }
 .personal-projects-image{
     width:100%;
@@ -123,7 +120,6 @@ a{
     margin-right:1rem
 }
 .skills{
-    color:#ddd2d2 ;
     display:flex;
     justify-content: space-around;
     width:50%;
@@ -138,6 +134,12 @@ a{
     margin-bottom: 6rem;
 }
 @media screen and (max-width:800px){
+    .title-container{
+        white-space: nowrap;
+    }
+    .screen-mode{
+        display: inline-block;
+    }
     .hero{
         width:100%;
         display:flex;
@@ -151,7 +153,6 @@ a{
         flex-direction:column-reverse;
         justify-content:center;
         align-items:center;
-        color:#ddd2d2
     }
     .flex-child{
         width:90%
@@ -165,7 +166,6 @@ a{
         margin-bottom:10rem
     }
     .skills{
-        color:#ddd2d2 ;
         /* display:flex;
         flex-direction: column; */
         margin:auto;

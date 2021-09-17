@@ -8,19 +8,25 @@
     <link rel="stylesheet" href="style.css">
     <link rel="canonical" href="https://jasielrivera.com/" />
     <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <script src="./app.js">
+    </script>
     <title>Jasiel Rivera | Web Developer </title>
 </head>
 <body>
     <header class="hero">
     <div class="flex-container">
         <div class="introduction-text flex-child">
-            <h1 class="name">Jasiel Rivera Trinidad</h1>
+            <div class="title-container">
+                <h1 class="name">Jasiel Rivera Trinidad</h1>
+                <img src="./img/switch-off.png" class="screen-mode" id="screen-mode" alt="light switch" 
+                width="30px" height="30px" onclick="lightmode()">
+            </div>
             <div class="social-media-links">
                 <a class="social-links" href="https://twitter.com/jasiel_rt95"><img src="./img/gorjeo.png" alt="Twitter" width="20px" height="20px"></a>
                 <a class="social-links" href="https://www.linkedin.com/in/jasielrivera/"><img src="./img/linkedin.png" alt="Linkedin" width="20px" height="20px"></a>
                 <a class="social-links" href="https://github.com/jasielrt95"><img src="./img/github.png" alt="Github" width="20px" height="20px"></a>
                 <a class="social-links" href="https://www.instagram.com/jasiel_rt95/"><img src="./img/instagram.png" alt="Instagram" width="20px" height="20px"></a>
-                <a class="social-links" title="Download Resume" href="https://github.com/jasielrt95/Resume"><img src="./img/resume.png" alt="Resume" width="20px" height="20px"></a>
+                <a class="social-links" title="Download Resume" href="https://github.com/jasielrt95/Resume"><img src="./img/pdf.png" alt="Resume" width="20px" height="20px"></a>
             </div>
             <p class="introduction-paragraph">Hello, my name is Jasiel Rivera Trinidad. I'm a computer science student at the University of Puerto Rico, Rio Piedras campus🇵🇷. Currently, I'm in my fourth year and hopefully will graduate in 2023. I have experience in C++, Python, Java, and web development.</p>
             <p class="introduction-paragraph">Most of the time I'm working or learning new stuff, but when I'm not, I'm usually creating new fun projects (some of which you can find below).As a web developer I'm currently learning to use Django and React.js. For the previous projects, I have used Flask and Bootstrap. If you want to know more about me or contact me, you can use the link below.😄 </p>
@@ -169,19 +175,7 @@
                 </div>
             </div>
         </div>
-
     </section>
-    
 </body>
-<!-- Google Analytics -->
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    
-    ga('create', '285065749', 'auto');
-    ga('send', 'pageview');
-    
-</script>
+
 </html>
