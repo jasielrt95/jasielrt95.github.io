@@ -69,6 +69,11 @@ a{
     background-color:#81d0b0;
     border-radius:.5rem;
 }
+.button-reddit{
+    padding:.5rem;
+    background-color: #d2bee0;
+    border-radius:.5rem;
+}
 .button-twitter{
     padding:.5rem;
     background-color:#1da1f2;
