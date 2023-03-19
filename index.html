@@ -1,157 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Jasiel Rivera personal webpage, here you will find information about me, some of the projects I have created or worked on, and my contact information.">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jasiel Rivera personal webpage, here you will find information about me, some of the projects I have created or worked on, and my contact information."
+    />
+    <link rel="stylesheet" href="style.css" />
     <link rel="canonical" href="https://jasielrivera.com/" />
-    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
-    <script src="./app.js">
-    </script>
-    <title>Jasiel Rivera | Web Developer </title>
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GJ3T975EGQ"></script>
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon" />
+    <title>Jasiel Rivera | Web Developer</title>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-GJ3T975EGQ"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){window.dataLayer.push(arguments);}
-        gtag('js', new Date());
-      
-        gtag('config', 'G-GJ3T975EGQ');
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-GJ3T975EGQ");
     </script>
-</head>
-<body>
+  </head>
+  <body>
     <header class="hero">
-    <div class="flex-container">
+      <div class="flex-container">
         <div class="introduction-text flex-child">
-            <div class="title-container">
-                <h1 class="name">Jasiel Rivera Trinidad</h1>
-                <img src="./img/switch-off.png" class="screen-mode" id="screen-mode" alt="light switch" 
-                width="30px" height="30px" onclick="lightmode()">
-            </div>
-            <div class="social-media-links">
-                <a class="social-links" href="https://twitter.com/jasiel_rt95"><img src="./img/gorjeo.png" alt="Twitter" width="20px" height="20px"></a>
-                <a class="social-links" href="https://www.linkedin.com/in/jasielrivera/"><img src="./img/linkedin.png" alt="Linkedin" width="20px" height="20px"></a>
-                <a class="social-links" href="https://github.com/jasielrt95"><img src="./img/github.png" alt="Github" width="20px" height="20px"></a>
-                <a class="social-links" href="https://www.instagram.com/jasiel_rt95/"><img src="./img/instagram.png" alt="Instagram" width="20px" height="20px"></a>
-                <a class="social-links" title="Download Resume" href="https://github.com/jasielrt95/Resume/blob/main/Jasiel-Rivera-Resume.PDF"><img src="./img/pdf.png" alt="Resume" width="20px" height="20px"></a>
-                <a class="social-links" title="Personal Blog" href="https://jasielrivera.blog/"><img src="./img/blog.png" alt="Blog" width="20px" height="20px"></a>
-            </div>
-            <p class="introduction-paragraph">Hello, my name is Jasiel Rivera Trinidad. I am a computer science student at the University of Puerto Rico, Rio Piedras Campus🇵🇷. I have experience with Python, JavaScript, C++, and web development technologies. Most of the time im working with or learning new technologies, you can find some of my projects below.</p>
-            <a class="button" href="mailto: jasiel.rivera@upr.edu">Contact</a>
+          <div class="title-container">
+            <h1 class="name">Jasiel Rivera Trinidad</h1>
+            <img
+              src="./img/switch-off.png"
+              class="screen-mode pulse"
+              id="screen-mode"
+              alt="light switch"
+              width="30px"
+              height="30px"
+              onclick="lightmode()"
+            />
+          </div>
+          <div class="social-media-links">
+            <a class="social-links" href="https://twitter.com/jasiel_rt95"
+              ><img
+                src="./img/twitter.png"
+                alt="Twitter"
+                width="40px"
+                height="40px"
+            /></a>
+            <a
+              class="social-links"
+              href="https://www.linkedin.com/in/jasielrivera/"
+              ><img
+                src="./img/linkedin.png"
+                alt="Linkedin"
+                width="40px"
+                height="40px"
+            /></a>
+            <a class="social-links" href="https://github.com/jasielrt95"
+              ><img
+                src="./img/github.png"
+                alt="Github"
+                width="40px"
+                height="40px"
+            /></a>
+            <a
+              class="social-links"
+              href="https://www.instagram.com/jasiel_rt95/"
+              ><img
+                src="./img/instagram.png"
+                alt="Instagram"
+                width="40px"
+                height="40px"
+            /></a>
+            <a
+              class="social-links"
+              title="Download Resume"
+              href="https://github.com/jasielrt95/Resume/blob/main/Jasiel%20Rivera%20Trinidad.pdf"
+              ><img
+                src="./img/file.png"
+                alt="Resume"
+                width="40px"
+                height="40px"
+            /></a>
+          </div>
+          <p class="introduction-paragraph">
+            Hello, my name is Jasiel Rivera Trinidad. I am a computer science
+            student at the University of Puerto Rico, Rio Piedras Campus🇵🇷. I
+            have experience with Python, JavaScript, C++, and web development
+            technologies. Most of the time im working with or learning new
+            technologies, you can find some of my projects below.
+          </p>
+          <a class="button" href="mailto: jasiel.rivera@upr.edu">Contact</a>
         </div>
         <div class="introduction-image flex-child">
-            <img class="profile-image"src="img/Ilustración-sin-título.png" alt="Jasiel's introduction image">
+          <img
+            class="profile-image"
+            src="img/hero.png"
+            alt="Jasiel's introduction image"
+          />
         </div>
-    </div>
+      </div>
     </header>
     <section>
-        <div class="skills-container">
-            <h2 class="title">My Skills</h2>
-            <div class="skills">
-                <div class="skill-column">
-                    <div class="skill-title">
-                        <h3 class="title">Languages</h2>
-                    </div>
-                    <div class="skill-list">
-                        <ul>
-                            <li>C++</li>
-                            <li>Python</li>
-                            <li>Java</li>
-                            <li>JavaScript</li>
-                            <li>HTML & CSS</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="skill-column">
-                    <div class="skill-title">
-                        <h3 class="title">Databases</h2>
-                    </div>
-                    <div class="skill-list">
-                        <ul>
-                            <li>SQL</li>
-                            <li>SPARQL</li>
-                            <li>SQLite</li>
-                            <li>MySQL</li>
-                            <li>SQLAlchemy</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="skill-column">
-                    <div class="skill-title">
-                        <h3 class="title">Frameworks</h2>
-                    </div>
-                    <div class="skill-list">
-                        <ul>
-                            <li>Django</li>
-                            <li>Flask</li>
-                            <li>React.js</li>
-                            <li>Bootstrap</li>
-                        </ul>
-                        </ul>
-                    </div>
-                </div>
+      <div class="skills-container">
+        <h2 class="title">My Skills</h2>
+        <div class="skills">
+          <div class="skill-column">
+            <div class="skill-title">
+              <h3 class="title">Languages</h3>
             </div>
+            <div class="skill-list">
+              <ul>
+                <li>C++</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>HTML & CSS</li>
+              </ul>
+            </div>
+          </div>
+          <div class="skill-column">
+            <div class="skill-title">
+              <h3 class="title">Databases</h3>
+            </div>
+            <div class="skill-list">
+              <ul>
+                <li>SQL</li>
+                <li>SPARQL</li>
+                <li>SQLite</li>
+                <li>MySQL</li>
+                <li>SQLAlchemy</li>
+                <li>PostgresSQL</li>
+              </ul>
+            </div>
+          </div>
+          <div class="skill-column">
+            <div class="skill-title">
+              <h3 class="title">Frameworks & Others</h3>
+            </div>
+            <div class="skill-list">
+              <ul>
+                <li>Django</li>
+                <li>Flask</li>
+                <li>React.js</li>
+                <li>Bootstrap</li>
+                <li>AWS</li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <section>
-        <div class="personal-projects-header">
-            <div class="flex-container">
-                <div class="personal-projects-text">
-                    <h2 class="title">Portfolio</h2> 
-                </div>
-            </div>
+      <div class="personal-projects-header">
+        <div class="flex-container">
+          <div class="personal-projects-text">
+            <h2 class="title">Portfolio</h2>
+          </div>
         </div>
-        <div class="personal-projects-container">
-            <div class="flex-container-projects">
-                <div class="personal-projects-item">
-                    <div class="personal-projects-description">
-                        <h3 class="title">Kavita Project</h3>
-                        <p class="description">
-                            Kavita Project is an investigation project directed by Dra. Patricia Ordoñez. It is meant to enable voice programing for programmers that have dificulties coding with their hands.
-                        </p>
-                    </div>
-                    <div class="personal-projects-image">
-                        <img class="profile-image" src="img/Kavita.png" alt="Twitter bot account">
-                    </div>
-                    <div class="personal-projects-link">
-                        <a class="button" href="https://kavitaproject.blogspot.com/">Kavita Blog</a>
-                    </div>
-                </div>
-                <div class="personal-projects-item">
-                    <div class="personal-projects-description">
-                        <h3 class="title">Subreddit Analyzer</h3>
-                        <p class="description">
-                            A sentiment analysis web tool built using Flask, NLTK and Matplotlib. It uses the VADER sentiment analysis library to analyze the sentiment of the posts in a subreddit. Then it generate some graphts with matplotlib. Finally it is all served by a Flask server.
-                        </p>
-                    </div>
-                    <div class="personal-projects-image">
-                        <img class="profile-image" src="img/image_2021-12-22_11-28-33.png" alt="Subreddit Analyzer UI">
-                    </div>
-                    <div class="personal-projects-link">
-                        <a class="button-reddit" href="https://redditanalisys.herokuapp.com/">Analyze your favorite subreddit</a>
-                    </div>
-                </div>
-                <div class="personal-projects-item">
-                    <div class="personal-projects-description">
-                        <h3 class="title">Media.Find 🔍</h3>
-                        <p class="description">
-                            Media.Find was created in two days during a hackathon of the IDI-BD2K. It is a simple web app that helps you find similar media to the one you already like. It is hosted on Heroku using the Flask framework and the Wikidata API.
-                        </p>
-                        <p class="description">
-                            This project is not finished yet, but I hope to finish it soon.
-                        </p>
-                    </div>
-                    <div class="personal-projects-image">
-                        <img class="profile-image" src="img/mediafind.jpeg" alt="Media.Find UI">
-                    </div>
-                    <div class="personal-projects-link">
-                        <a class="button-mediafind" href="https://mediafind.herokuapp.com/">MediaFind</a>
-                    </div>
-                </div>
+      </div>
+      <div class="personal-projects-container">
+        <div class="flex-container-projects">
+          <div class="personal-projects-item">
+            <div class="personal-projects-description">
+              <h3 class="title">Software Engineer</h3>
+              <p class="description">
+                I am currently employed as a software engineer at DECEP UPRRP,
+                where I am contributing to the development of a web platform
+                designed to facilitate course enrollment for both high school
+                and college students. The project is constructed utilizing
+                industry-leading technologies such as Django, Bootstrap, and
+                PostgresSQL, and my work involves leveraging these tools to
+                deliver a reliable, scalable, and user-friendly solution.
+              </p>
             </div>
+            <div class="personal-projects-image">
+              <img
+                class="profile-image"
+                src="img/Adelanta.png"
+                alt="Adelanta"
+              />
+            </div>
+          </div>
+          <div class="personal-projects-item">
+            <div class="personal-projects-description">
+              <h3 class="title">ProfeRank</h3>
+              <p class="description">
+                Proferank is a project where students from different
+                universities in Puerto Rico can rate their professors based on
+                the courses they teach. Additionally, it provides a platform for
+                making anonymous confessions about anything!
+              </p>
+            </div>
+            <div class="personal-projects-image">
+              <img
+                class="profile-image"
+                src="img/Proferank.png"
+                alt="Proferank"
+              />
+            </div>
+            <div class="personal-projects-link">
+              <a class="button" href="https://www.proferank.com/">ProfeRank</a>
+            </div>
+          </div>
+          <div class="personal-projects-item">
+            <div class="personal-projects-description">
+              <h3 class="title">Personal Blog</h3>
+              <p class="description">
+                This is my personal blog, its built using Ghost CMS and hosted on a Digital Ocean droplet. I use it to write about my projects and other things I find interesting.
+              </p>
+            </div>
+            <div class="personal-projects-image">
+              <img
+                class="profile-image"
+                src="img/Blog.png"
+                alt="Proferank"
+              />
+            </div>
+            <div class="personal-projects-link">
+              <a class="button" href="https://www.jasielrivera.blog/">Personal Blog</a>
+            </div>
+          </div>
+          <div class="personal-projects-item">
+            <div class="personal-projects-description">
+              <h3 class="title">Subreddit Analyzer</h3>
+              <p class="description">
+                A sentiment analysis web tool built using Flask, NLTK and
+                Matplotlib. It uses the VADER sentiment analysis library to
+                analyze the sentiment of the posts in a subreddit. Then it
+                generate some graphts with matplotlib. Finally it is all served
+                by a Flask server.
+              </p>
+            </div>
+            <div class="personal-projects-image">
+              <img
+                class="profile-image"
+                src="img/reddit_analyzer.png"
+                alt="Subreddit Analyzer UI"
+              />
+            </div>
+            <div class="personal-projects-link">
+              <a
+                class="button-reddit"
+                href="https://redditanalisys.herokuapp.com/"
+                >Analyze your favorite subreddit</a
+              >
+            </div>
+          </div>
+          <div class="personal-projects-item">
+            <div class="personal-projects-description">
+              <h3 class="title">Media.Find 🔍</h3>
+              <p class="description">
+                Media.Find was created in two days during a hackathon of the
+                IDI-BD2K. It is a simple web app that helps you find similar
+                media to the one you already like. It is hosted on Heroku using
+                the Flask framework and the Wikidata API.
+              </p>
+              <p class="description">
+                This project is not finished yet, but I hope to finish it soon.
+              </p>
+            </div>
+            <div class="personal-projects-image">
+              <img
+                class="profile-image"
+                src="img/mediafind.jpeg"
+                alt="Media.Find UI"
+              />
+            </div>
+            <div class="personal-projects-link">
+              <a
+                class="button-mediafind"
+                href="https://mediafind.herokuapp.com/"
+                >MediaFind</a
+              >
+            </div>
+          </div>
+          <div class="personal-projects-item">
+            <div class="personal-projects-description">
+              <h3 class="title">Kavita Project</h3>
+              <p class="description">
+                Kavita Project is an investigation project directed by Dra.
+                Patricia Ordoñez. It is meant to enable voice programing for
+                programmers that have dificulties coding with their hands.
+              </p>
+            </div>
+            <div class="personal-projects-image">
+              <img class="profile-image" src="img/Kavita.png" alt="Kavita" />
+            </div>
+            <div class="personal-projects-link">
+              <a class="button" href="https://github.com/jasielrt95/Voice2Code"
+                >Kavita Github</a
+              >
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-</body>
-
+  </body>
+  <script src="./app.js"></script>
 </html>

@@ -3,7 +3,8 @@
 body{
     background-color:#232c33;
     color:#ddd2d2;
-    font-family:'Source Sans Pro',sans-serif
+    font-family:'Source Sans Pro',sans-serif;
+    font-size:1.2rem;
 }
 .light-mode{
     background-color:#f6efee;
@@ -137,6 +138,23 @@ a{
     width: 80%;
     margin: auto;
     margin-bottom: 6rem;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.9);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.pulse {
+    animation: pulse 2s infinite;
 }
 @media screen and (max-width:800px){
     .title-container{
